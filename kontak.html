@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - SMP IT Al-Barokah</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="noneng_header">
+    <div class="noneng_container noneng_navbar">
+        <a href="index.html" class="noneng_logo">SMP IT Al-Barokah</a>
+
+        <button id="noneng_toggle" class="noneng_toggle"
+            aria-label="Buka menu" aria-expanded="false">☰</button>
+
+        <nav id="noneng_menu" class="noneng_menu">
+            <a href="index.html">Home</a>
+            <a href="profil.html">Profil</a>
+            <a href="visimisi.html">Visi Misi</a>
+            <a href="guru.html">Guru</a>
+            <a href="fasilitas.html">Fasilitas</a>
+            <a href="berita.html">Berita</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+    </div>
+</header>
+
+<main class="noneng_container">
+
+    <section class="noneng_page_heading">
+        <h1>Hubungi Kami</h1>
+        <p>Silakan hubungi SMP IT Al-Barokah</p>
+    </section>
+
+    <section class="noneng_section">
+        <h2>Informasi Kontak</h2>
+        <p><b>Nama Sekolah:</b> SMP IT Al-Barokah</p>
+        <p><b>Alamat:</b> kp.sindangkasih RT/RW 03/09.</p>
+        <p><b>Email:</b> info@albarokah.sch.id</p>
+        <p><b>Telepon:</b> 083155776137</p>
+    </section>
+
+    <section class="noneng_section">
+        <h2>Kirim Pesan</h2>
+
+        <form id="noneng_contact_form">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama"
+                placeholder="Masukkan nama lengkap" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"
+                placeholder="Masukkan email" required>
+
+            <label for="pesan">Pesan</label>
+            <textarea id="pesan" name="pesan"
+                placeholder="Tuliskan pesan kamu" required></textarea>
+
+            <button type="submit">Kirim Pesan</button>
+            <p id="noneng_form_message"></p>
+        </form>
+    </section>
+
+</main>
+
+<footer class="noneng_footer">
+    <p>&copy; <span class="noneng_year"></span> SMP IT Al-Barokah</p>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
