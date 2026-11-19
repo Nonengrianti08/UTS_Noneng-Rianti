@@ -723,3 +723,31 @@ body{
     }
 
 }
+
+/* PERBAIKAN MENU MOBILE */
+@media (max-width: 600px) {
+
+    .noneng_header {
+        position: relative;
+        z-index: 9999;
+    }
+
+    .noneng_navbar {
+        position: relative;
+    }
+
+    .noneng_toggle {
+        display: block;
+        position: relative;
+        z-index: 10001;
+        cursor: pointer;
+    }
+
+    .noneng_menu {
+        z-index: 10000;
+    }
+
+    .noneng_menu.noneng_show {
+        display: flex;
+    }
+}
